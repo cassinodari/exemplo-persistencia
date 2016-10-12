@@ -2,7 +2,6 @@ package br.edu.com.uricer.p2;
 
 import br.edu.com.uricer.p1.Database;
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -17,7 +16,7 @@ public class TestaRemocao {
         
         String sql = "delete from Pessoas where id > 3";
         Statement stm = con.createStatement();
-        stm.execute(sql, Statement.RETURN_GENERATED_KEYS);
+        stm.execute(sql);
         int count = stm.getUpdateCount();
         System.out.println(count + " registros excluídos");
 
