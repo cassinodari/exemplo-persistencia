@@ -1,8 +1,8 @@
 package br.edu.com.uricer.test;
 
-import br.edu.com.uricer.p2.DataBase;
-import br.edu.com.uricer.p3.Pessoa;
-import br.edu.com.uricer.p3.PessoaDAO;
+import br.edu.com.uricer.dao.DataBase;
+import br.edu.com.uricer.model.Pessoa;
+import br.edu.com.uricer.dao.PessoaDAO;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;

@@ -1,6 +1,6 @@
 package br.edu.com.uricer.dao;
 
-import br.edu.com.uricer.p3.Pessoa;
+import br.edu.com.uricer.model.Pessoa;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
