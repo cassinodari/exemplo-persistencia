@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class DataBase {
 
     public static Connection getConnection() throws SQLException {
-        Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/exemplo", "usuario", "exemplo");
+        Connection conn = DriverManager.getConnection("jdbc:derby://localhost:1527/exemplo", "usuario", "teste");
         return conn;
     }
 }
