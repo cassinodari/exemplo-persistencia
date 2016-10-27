@@ -1,4 +1,4 @@
-package br.edu.com.uricer.p3;
+package br.edu.com.uricer.model;
 
 /**
  *
